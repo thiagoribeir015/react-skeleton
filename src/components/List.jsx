@@ -24,8 +24,9 @@ var List = React.createClass({
 	},
 
 	render: function (){
+
 		return(
-			<div>
+			<div style={{margin: 10}}>
 				<button className="ui button" onClick={this.buttonClick}>Add New</button>
 				<div className="ui relaxed divided list">
 					{
